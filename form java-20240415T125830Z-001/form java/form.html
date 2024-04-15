@@ -1,0 +1,263 @@
+<html>
+
+<Header>
+
+<Title>Application</title>
+
+</Header>
+
+<Body class="body">
+    <style>
+.body{
+    background: lightblue url("formbg.jpg") ;
+      background-size: cover;
+
+}
+.button1{
+position: relative;
+
+background-color: white;
+border: none;
+width: 800px;
+border-radius: 20px;
+
+
+}
+.button2{
+    position: relative;
+ 
+left: 190px;
+border: none;
+background-color: cornflowerblue;
+border-radius: 20px;
+top: 20px;
+}
+.font{
+font-size: 30px;
+font-family: 'Times New Roman', Times, serif;
+color: white;
+}
+.first:hover{
+width: 750px;
+height: 70px;
+position: relative;
+font-size: 30px;
+box-shadow: 5px 5px 10px;
+border: none;
+}
+.first{
+position: relative;
+
+    padding: 10px;
+    top: 20px;
+    border-radius: 20px;
+    width: 400px;
+
+}
+.firstname{
+
+position:relative ;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+color: gray;
+}
+.middle{
+    position: relative;
+  
+    padding: 10px;
+    top: 20px;
+    border-radius: 20px;
+    width: 400px;
+}
+.middle:hover{
+    width: 450px;
+height: 70px;
+position: relative;
+font-size: 30px;
+box-shadow: 5px 5px 10px;
+border: none
+
+}
+.last{
+    position: relative;
+  padding: 10px;
+  top: 20px;
+  border-radius: 20px;
+  width: 400px;
+}
+.last:hover{
+    width: 450px;
+height: 70px;
+position: relative;
+font-size: 30px;
+box-shadow: 5px 5px 10px;
+border: none
+
+}
+.middlename{
+
+position:relative ;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+top: 10px;
+color: gray;
+}
+.lastname{
+    position:relative ;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+top: 10px;
+color: gray;
+}
+.gender{
+    font-size: 20px;
+    font-weight: bold;
+}
+.male{
+font-size: 20px;
+}
+input{
+
+}
+div{
+
+}
+p{
+    position: relative;
+    text-align: left;
+    left: 12px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+}
+.circle{
+ outline: 3px;
+ position: relative;
+right: 250px;
+bottom: 15px;
+}
+.text1{
+width: 200px;
+
+}
+.input1{
+ 
+   
+font-size: 60px;
+border: solid;
+border: none;
+background-color: white;
+opacity: 1;
+bottom: 200px;
+color: black;
+border-radius: 20px;
+cursor: pointer;
+}
+
+    </style>
+    <center>
+        <H1 class="font"> SURVEY FOR CURRENT ISSUES</H1> 
+    <button class="button2"></button>
+
+<button class="button1">
+
+  <form>
+<p>Do you agree on catch up friday being implemented?</p>
+<br>
+<br>
+<div class="text1"></div><input class="circle" type="text" placeholder="Input your ANSWER" id="ab" name="a" > 
+
+
+<p>Do you agree that sci hi should be included in half days?</p>
+<br>
+<br>
+<div class="text1"></div><input class="circle" type="text" placeholder="Input your ANSWER" id="ac" name="a" > 
+
+
+<p>Do you agree with the prices in the canteen?</p>
+<br>
+<br>
+<div class="text1"></div><input class="circle" type="text" placeholder="Input your ANSWER" id="ad" name="a" > 
+
+
+<p>Do you think that sports should be more supported by sci hi?</p>
+<br>
+<br>
+<div class="text1"></div><input class="circle" type="text" placeholder="Input your ANSWER" id="ae" name="a" > 
+
+
+<p>Do you think that summer camp can help struggling students?</p>
+<br>
+<br>
+<div class="text1"></div><input class="circle" type="text" placeholder="Input your ANSWER" id="af" name="a" > 
+
+
+<p>Do you think that the facilities in the school is enough for all students?</p>
+<br>
+<br>
+<div class="text1"></div><input class="circle" type="text" placeholder="Input your ANSWER" id="ag" name="a" > 
+
+
+
+<p>Do you think engineer Mike is wrong?</p>
+<br>
+<br>
+<div class="text1"></div><input class="circle" type="text" placeholder="Input your ANSWER" id="ah" name="a" > 
+
+
+<p>Do you think pastor Quiboloy is wrong?</p>
+<br>
+<br>
+<div class="text1"></div><input class="circle" type="text" placeholder="Input your ANSWER" id="ai" name="a" > 
+
+
+
+<p>Do you agree with the shorten school year?</p>
+<br>
+<br>
+<div class="text1"></div><input class="circle" type="text" placeholder="Input your ANSWER" id="aj" name="a" > 
+
+<p>Do you agree with the Taragis prank?</p>
+<br>
+<br>
+<div class="text1"></div><input class="circle" type="text" placeholder="Input your ANSWER" id="a2" name="a" > 
+
+</button>
+<br>
+<br>
+<input class="input1" type="submit" value="submit" onclick="yes()">
+        </form>
+     
+   
+
+    <script>
+        function yes(){
+    var y=document.getElementById("ab").value;
+    var yy=document.getElementById("ac").value;
+    var yyy=document.getElementById("ad").value;
+    var yyyy=document.getElementById("ae").value;
+    var yyyyy=document.getElementById("af").value;
+    var yyyyyy=document.getElementById("ag").value;
+    var yyyyyyy=document.getElementById("ah").value;
+    var yyyyyyyy=document.getElementById("ai").value;
+    var yyyyyyyyy=document.getElementById("aj").value;
+    var yyyyyyyyyy=document.getElementById("a2").value;
+    
+
+    var m=localStorage.setItem("Do you agree on catch up friday being implemented?",y );
+    var mm=localStorage.setItem("Do you agree that sci hi should be included in half days?", yy);
+    var mmm=localStorage.setItem("Do you agree with the prices in the canteen?",yyy );
+    var mmmm=localStorage.setItem("Do you think that sports should be more supported by sci hi?",yyyy );
+    var mmmmm=localStorage.setItem("Do you think that summer camp can help struggling students?", yyyyy);
+    var mmmmmm=localStorage.setItem("Do you think that the facilities in the school is enough for all students?",yyyyyy );
+    var mmmmmmm=localStorage.setItem("Do you think engineer Mike is wrong?",yyyyyyy );
+    var mmmmmmmm=localStorage.setItem("Do you think pastor Quiboloy is wrong?", yyyyyyyy);
+    var mmmmmmmmm=localStorage.setItem("do you agree with the shorten school year?", yyyyyyyyy);}
+    </script>
+    
+
+</form>
+
+
+</body>
+</html> 
